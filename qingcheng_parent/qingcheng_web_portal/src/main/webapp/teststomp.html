@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/stomp.min.js"></script>
+    <script src="js/sockjs-0.3.min.js"></script>
+
+    <script>
+        //var client = Stomp.client('ws:116.62.4.99:15674/ws');
+        var ws = new SockJS('http://' + '116.62.4.99' + ':15674/stomp');
+        var client = Stomp.over(ws);
+
+        //禁用pingpong，防止Rabbitmq将链接关闭
+        client.heartbeat.outgoing = 0;
+        client.heartbeat.incoming = 0;
+
+        var on_connect = function(x) {
+            id = client.subscribe("/exchange/paynotify", function(d) {
+            //id = client.subscribe("/exchange/pay", function(d) {
+                alert(d.body);
+            });
+        };
+        var on_error =  function() {
+            console.log('error');
+        };
+        client.connect('webguest', 'qingcheng', on_connect, on_error, '/');
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片列表管理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <link rel="stylesheet" href="../plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- 上传图片框样式，不使用上传组件可以删除此样式 -->
+    <style>
+        .avatar-uploader .el-upload {
+            border: 1px dashed #d9d9d9;
+            border-radius: 6px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        .avatar-uploader .el-upload:hover {
+            border-color: #409EFF;
+        }
+        .avatar-uploader-icon {
+            font-size: 28px;
+            color: #8c939d;
+            width: 150px;
+            height: 70px;
+            line-height: 150px;
+            text-align: center;
+        }
+        .avatar {
+            width: 150px;
+            height: 70px;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+<div id="app">
+    <div  >
+        <div v-for="ablumimg in itemList" style="width: 100px; height: 100px" >
+        <img width="100px" height="68px" :src="ablumimg.url">
+            <el-button  @click="dele(ablumimg.url)" size="mini" type="primary" size="small">删除</el-button>
+        </div>
+        <el-upload
+                style="width: 100px; height: 100px"
+                class="avatar-uploader"
+                action="/upload/native.do"
+                :show-file-list="false"
+                :on-success="handleAvatarSuccess"
+                :before-upload="beforeAvatarUpload">
+            <i class="el-icon-plus avatar-uploader-icon"></i>
+        </el-upload>
+    </div>
+
+</div>
+</body>
+<script src="/js/vue.js"></script>
+<script src="/js/axios.js"></script>
+<script src="/js/elementui.js"></script>
+<script src="/js/util.js"></script>
+<script>
+    new Vue({
+        el:'#app',
+        data(){
+            return{
+                albumId:0,
+                pojo:{},
+                itemList:[]
+            }
+        },
+        created(){
+            this.albumId=getQueryString('id');
+            this.fetchData();
+        },
+        methods:{
+            fetchData(){
+                axios.get(`/album/findById.do?id=${this.albumId}`).then(response => {
+                    this.pojo = response.data;
+                    this.itemList=JSON.parse(response.data.imageItems);
+                })
+            },
+            handleAvatarSuccess(res, file) {
+                let newone={"url":file.response,
+                    "uid":1548143143154,
+                    "status":"success"
+                };
+                this.itemList.push(newone);
+                this.pojo.imageItems=JSON.stringify(this.itemList);
+                axios.post(`/album/update.do`,this.pojo).then(response=>{
+                    this.fetchData();
+                })
+            },
+            beforeAvatarUpload(file) {
+                const isJPG = file.type === 'image/jpeg';
+                const isLt2M = file.size / 1024 / 1024 < 2;
+
+                if (!isJPG) {
+                    this.$message.error('上传头像图片只能是 JPG 格式!');
+                }
+                if (!isLt2M) {
+                    this.$message.error('上传头像图片大小不能超过 2MB!');
+                }
+                return isJPG && isLt2M;
+            },
+            dele(durl){
+                this.itemList.splice(this.itemList.findIndex(i => i.url === durl), 1);
+                this.pojo.imageItems=JSON.stringify(this.itemList);
+                axios.post(`/album/update.do`,this.pojo).then(response=>{
+                    this.fetchData();
+                })
+            }
+        }
+    })
+</script>
+</html>

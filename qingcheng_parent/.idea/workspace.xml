@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd11ff39-ef9a-41ef-a1ed-0d1aeea38ece" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repo" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="C:\Users\admin\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1XtNOKKHGSUoAaVCuKlbmGnksgc" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554813516681" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qingcheng_service_seckill/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/code/qingcheng_parent/qingcheng_service_order/src/main/java/com/qingcheng/service/impl/WxPayServiceImpl.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\qingcheng_parent\qingcheng_web_portal\src\main\webapp\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\qingcheng_parent\qingcheng_service_seckill\src\main\resources" />
+      <recent name="D:\IdeaProjects\qingcheng_parent\qingcheng_web_seckill\src\main\webapp" />
+      <recent name="D:\IdeaProjects\qingcheng_parent\qingcheng_web_seckill\src\main\webapp\js" />
+      <recent name="D:\IdeaProjects\qingcheng_parent\qingcheng_service_seckill\src\main\java\com\qingcheng\service\impl" />
+      <recent name="D:\IdeaProjects\qingcheng_parent\qingcheng_web_seckill\src\main\java\com\qingcheng\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd11ff39-ef9a-41ef-a1ed-0d1aeea38ece" name="Default Changelist" comment="" />
+      <created>1554714787668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554714787668</updated>
+      <workItem from="1554714791909" duration="6130000" />
+      <workItem from="1554737525554" duration="12000" />
+      <workItem from="1554768883348" duration="16405000" />
+      <workItem from="1581861400922" duration="881000" />
+      <workItem from="1581863705240" duration="1873000" />
+      <workItem from="1581866069922" duration="334000" />
+      <workItem from="1581912696246" duration="29917000" />
+      <workItem from="1582087338735" duration="9333000" />
+      <workItem from="1582167173288" duration="29952000" />
+      <workItem from="1582211761782" duration="1498000" />
+      <workItem from="1582256239220" duration="12823000" />
+      <workItem from="1582349421404" duration="6102000" />
+      <workItem from="1582358485469" duration="17039000" />
+      <workItem from="1582422113115" duration="5494000" />
+      <workItem from="1582507693201" duration="843000" />
+      <workItem from="1582511486126" duration="20365000" />
+      <workItem from="1582587157113" duration="18578000" />
+      <workItem from="1582715906367" duration="790000" />
+      <workItem from="1582770404416" duration="8379000" />
+      <workItem from="1582816598721" duration="2266000" />
+      <workItem from="1582845477664" duration="32278000" />
+      <workItem from="1583034855460" duration="20120000" />
+      <workItem from="1583063950992" duration="7823000" />
+      <workItem from="1583075758217" duration="356000" />
+      <workItem from="1583113185576" duration="9064000" />
+      <workItem from="1583129273715" duration="279000" />
+      <workItem from="1583133003077" duration="8760000" />
+      <workItem from="1583158513100" duration="1780000" />
+      <workItem from="1583162206200" duration="865000" />
+      <workItem from="1583195824404" duration="1198000" />
+      <workItem from="1583202276436" duration="548000" />
+      <workItem from="1583213027601" duration="1690000" />
+      <workItem from="1583301358075" duration="4350000" />
+      <workItem from="1583315937509" duration="852000" />
+      <workItem from="1583325335860" duration="1356000" />
+      <workItem from="1583332153130" duration="134000" />
+      <workItem from="1583370886737" duration="209000" />
+      <workItem from="1583414241404" duration="1925000" />
+      <workItem from="1583416982117" duration="2355000" />
+      <workItem from="1583472724469" duration="2218000" />
+      <workItem from="1583483670335" duration="231000" />
+      <workItem from="1583485160499" duration="1986000" />
+      <workItem from="1583488738237" duration="1420000" />
+      <workItem from="1583495697206" duration="3173000" />
+      <workItem from="1583505875046" duration="660000" />
+      <workItem from="1583507915915" duration="1293000" />
+      <workItem from="1583510540991" duration="466000" />
+      <workItem from="1583513126296" duration="377000" />
+      <workItem from="1583544525932" duration="1264000" />
+      <workItem from="1583547398546" duration="5341000" />
+      <workItem from="1583555474015" duration="26000" />
+      <workItem from="1583556064673" duration="8359000" />
+      <workItem from="1583569046750" duration="6836000" />
+      <workItem from="1583581302269" duration="217000" />
+      <workItem from="1583586591998" duration="852000" />
+      <workItem from="1583588392680" duration="227000" />
+      <workItem from="1583589490434" duration="413000" />
+      <workItem from="1583590069808" duration="240000" />
+      <workItem from="1583593644992" duration="63000" />
+      <workItem from="1583594751377" duration="139000" />
+      <workItem from="1583594923120" duration="1158000" />
+      <workItem from="1583596787397" duration="526000" />
+      <workItem from="1583597810548" duration="456000" />
+      <workItem from="1583628811387" duration="383000" />
+      <workItem from="1583631095975" duration="950000" />
+      <workItem from="1583633406701" duration="106000" />
+      <workItem from="1583639702140" duration="7871000" />
+      <workItem from="1583653517934" duration="11624000" />
+      <workItem from="1583668573503" duration="532000" />
+      <workItem from="1583671828991" duration="931000" />
+      <workItem from="1583681296827" duration="420000" />
+      <workItem from="1583711409362" duration="2891000" />
+      <workItem from="1583716666472" duration="15620000" />
+      <workItem from="1583736724143" duration="398000" />
+      <workItem from="1583739708563" duration="11224000" />
+      <workItem from="1583799618581" duration="20684000" />
+      <workItem from="1583888432100" duration="901000" />
+      <workItem from="1583892564170" duration="2956000" />
+      <workItem from="1583899304500" duration="318000" />
+      <workItem from="1583914058720" duration="395000" />
+      <workItem from="1583999378090" duration="2752000" />
+      <workItem from="1584005729919" duration="130000" />
+      <workItem from="1584011104794" duration="1186000" />
+      <workItem from="1584066492630" duration="3470000" />
+      <workItem from="1584080303539" duration="695000" />
+      <workItem from="1584081738820" duration="1177000" />
+      <workItem from="1584091552045" duration="5049000" />
+      <workItem from="1584100302900" duration="15376000" />
+      <workItem from="1584155945903" duration="18689000" />
+      <workItem from="1584198243071" duration="727000" />
+      <workItem from="1584200919026" duration="4211000" />
+      <workItem from="1584248368394" duration="4181000" />
+      <workItem from="1584260936431" duration="231000" />
+      <workItem from="1584274831630" duration="130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/qingcheng_web_manager/src/main/java/com/qingcheng/controller/UserDetailServiceImpl.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/qingcheng_web_manager/src/main/java/com/qingcheng/controller/UserDetailServiceImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
